@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.navContainer {
+  z-index: 2;
+  position: sticky;
+  top: 0;
+}
+
+.myPortfolio {
+  font-weight: 600;
+  font-size: large;
+}
+
+img {
+  max-width: 100%;
+}
+
+.homeContainer {
+  background-image: linear-gradient(rgb(115, 124, 132), white);
+  position: relative;
+  height: 100vh;
+}
+
+.homeContent {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clickButton {
+  width: 2rem;
+}
+
+.card {
+  width: 90%;
+  max-width: 600px;
+  color: rgb(90, 60, 60);
+  text-align: center;
+  padding: 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  transition: transform 0.5s;
+  max-height: 900px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  transform: translateX(50%);
+  width: 50%;
+  height: 50%;
+  margin-bottom: 3rem;
+  border-radius: 50%;
+}
+
+.projectContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: linear-gradient(white, rgb(115, 124, 132));
+}
+
+.projectContainer .card {
+  color: rgb(116, 105, 77);
+  max-width: 525px;
+  margin: 3rem 2rem;
+  min-height: 500px;
+}
+
+video {
+  margin: 1.5rem 0;
+}
