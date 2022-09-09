@@ -6,7 +6,7 @@ function Skills() {
       <h1>Skills</h1>
       <div className="rangeContainer">
         <div className="rangeCard">
-          <p>HTML</p>:
+          <p>HTML</p> : 
           <input type="range" value={90} class="range-style"></input>
         </div>
         <div className="rangeCard">
